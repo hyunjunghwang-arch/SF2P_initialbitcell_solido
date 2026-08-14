@@ -1,60 +1,58 @@
-Test,Name,Yield,Min,Target,Max,Mean,Std Dev,Cpk,Errors
-Yield Estimate: 0 %(0 passed/0 pts)     Confidence Level: <not set>   Filter: <not set>,,,,,,,,,
-hyuntest_lkg_tb_1_spectre,,,,,,,,,
-,rvtnfet_ids(summary),0% (0/0),0,,0,0,0,,0
-,rvtnfet_igtot(summary),0% (0/0),0,,0,0,0,,0
-,rvtnfet_igidl(summary),0% (0/0),0,,0,0,0,,0
-,rvtnfet_vth(summary),0% (0/0),0,,0,0,0,,0
-,lvtnfet_ids(summary),0% (0/0),0,,0,0,0,,0
-,lvtnfet_igtot(summary),0% (0/0),0,,0,0,0,,0
-,lvtnfet_igidl(summary),0% (0/0),0,,0,0,0,,0
-,lvtnfet_vth(summary),0% (0/0),0,,0,0,0,,0
-,mvtnfet_ids(summary),0% (0/0),0,,0,0,0,,0
-,mvtnfet_igtot(summary),0% (0/0),0,,0,0,0,,0
-,mvtnfet_igidl(summary),0% (0/0),0,,0,0,0,,0
-,mvtnfet_vth(summary),0% (0/0),0,,0,0,0,,0
-,slvtnfet_ids(summary),0% (0/0),0,,0,0,0,,0
-,slvtnfet_igtot(summary),0% (0/0),0,,0,0,0,,0
-,slvtnfet_igidl(summary),0% (0/0),0,,0,0,0,,0
-,slvtnfet_vth(summary),0% (0/0),0,,0,0,0,,0
-,vlvtnfet_ids(summary),0% (0/0),0,,0,0,0,,0
-,vlvtnfet_igtot(summary),0% (0/0),0,,0,0,0,,0
-,vlvtnfet_igidl(summary),0% (0/0),0,,0,0,0,,0
-,vlvtnfet_vth(summary),0% (0/0),0,,0,0,0,,0
-,nswnfetpd_ids(summary),0% (0/0),0,,0,0,0,,0
-,nswnfetpd_igtot(summary),0% (0/0),0,,0,0,0,,0
-,nswnfetpd_igidl(summary),0% (0/0),0,,0,0,0,,0
-,nswnfetpd_vth(summary),0% (0/0),0,,0,0,0,,0
-,nswnfetwl_ids(summary),0% (0/0),0,,0,0,0,,0
-,nswnfetwl_igtot(summary),0% (0/0),0,,0,0,0,,0
-,nswnfetwl_igidl(summary),0% (0/0),0,,0,0,0,,0
-,nswnfetwl_vth(summary),0% (0/0),0,,0,0,0,,0
-,hvtpfet_ids(summary),0% (0/0),0,,0,0,0,,0
-,hvtpfet_igtot(summary),0% (0/0),0,,0,0,0,,0
-,hvtpfet_igidl(summary),0% (0/0),0,,0,0,0,,0
-,hvtpfet_vth(summary),0% (0/0),0,,0,0,0,,0
-,rvtpfet_ids(summary),0% (0/0),0,,0,0,0,,0
-,rvtpfet_igtot(summary),0% (0/0),0,,0,0,0,,0
-,rvtpfet_igidl(summary),0% (0/0),0,,0,0,0,,0
-,rvtpfet_vth(summary),0% (0/0),0,,0,0,0,,0
-,lvtpfet_ids(summary),0% (0/0),0,,0,0,0,,0
-,lvtpfet_igtot(summary),0% (0/0),0,,0,0,0,,0
-,lvtpfet_igidl(summary),0% (0/0),0,,0,0,0,,0
-,lvtpfet_vth(summary),0% (0/0),0,,0,0,0,,0
-,mvtpfet_ids(summary),0% (0/0),0,,0,0,0,,0
-,mvtpfet_igtot(summary),0% (0/0),0,,0,0,0,,0
-,mvtpfet_igidl(summary),0% (0/0),0,,0,0,0,,0
-,mvtpfet_vth(summary),0% (0/0),0,,0,0,0,,0
-,slvtpfet_ids(summary),0% (0/0),0,,0,0,0,,0
-,slvtpfet_igtot(summary),0% (0/0),0,,0,0,0,,0
-,slvtpfet_igidl(summary),0% (0/0),0,,0,0,0,,0
-,slvtpfet_vth(summary),0% (0/0),0,,0,0,0,,0
-,vlvtpfet_ids(summary),0% (0/0),0,,0,0,0,,0
-,vlvtpfet_igtot(summary),0% (0/0),0,,0,0,0,,0
-,vlvtpfet_igidl(summary),0% (0/0),0,,0,0,0,,0
-,vlvtpfet_vth(summary),0% (0/0),0,,0,0,0,,0
-,nswpfetpu_ids(summary),0% (0/0),0,,0,0,0,,0
-,nswpfetpu_igtot(summary),0% (0/0),0,,0,0,0,,0
-,nswpfetpu_igidl(summary),0% (0/0),0,,0,0,0,,0
-,nswpfetpu_vth(summary),0% (0/0),0,,0,0,0,,0
+Test,Output,Min,Max,Mean,Median,Std Dev,Spec,Pass/Fail
+hyuntest_lkg_tb_1_spectre,rvtnfet_ids,94.36e-6,127.3e-6,112.7e-6,112.8e-6,4.634e-6,,
+hyuntest_lkg_tb_1_spectre,rvtnfet_igtot,55.66e-12,86.1e-12,69.23e-12,68.96e-12,4.164e-12,,
+hyuntest_lkg_tb_1_spectre,rvtnfet_igidl,11.83e-102,12.44e-102,12.1e-102,12.1e-102,0,,
+hyuntest_lkg_tb_1_spectre,rvtnfet_vth,268.3e-3,392.6e-3,326.8e-3,326.7e-3,17.24e-3,,
+hyuntest_lkg_tb_1_spectre,lvtnfet_ids,126.8e-6,157.2e-6,141.8e-6,141.8e-6,5.219e-6,,
+hyuntest_lkg_tb_1_spectre,lvtnfet_igtot,47.6e-12,67.13e-12,55.8e-12,55.63e-12,3.158e-12,,
+hyuntest_lkg_tb_1_spectre,lvtnfet_igidl,7.702e-102,8.08e-102,7.892e-102,7.892e-102,0,,
+hyuntest_lkg_tb_1_spectre,lvtnfet_vth,180.1e-3,288.9e-3,237.2e-3,237.2e-3,18.42e-3,,
+hyuntest_lkg_tb_1_spectre,mvtnfet_ids,111.3e-6,143.2e-6,127.1e-6,127.2e-6,4.971e-6,,
+hyuntest_lkg_tb_1_spectre,mvtnfet_igtot,53.98e-12,78.29e-12,64.05e-12,63.75e-12,3.905e-12,,
+hyuntest_lkg_tb_1_spectre,mvtnfet_igidl,10.8e-102,11.35e-102,11.07e-102,11.07e-102,0,,
+hyuntest_lkg_tb_1_spectre,mvtnfet_vth,237.6e-3,348.1e-3,293.1e-3,293.6e-3,18.08e-3,,
+hyuntest_lkg_tb_1_spectre,slvtnfet_ids,141.6e-6,177.7e-6,160.4e-6,160.4e-6,5.926e-6,,
+hyuntest_lkg_tb_1_spectre,slvtnfet_igtot,44.63e-12,63.02e-12,52.5e-12,52.42e-12,2.856e-12,,
+hyuntest_lkg_tb_1_spectre,slvtnfet_igidl,11.75e-102,12.45e-102,12.09e-102,12.09e-102,0,,
+hyuntest_lkg_tb_1_spectre,slvtnfet_vth,108.8e-3,231e-3,166.9e-3,166.5e-3,18.61e-3,,
+hyuntest_lkg_tb_1_spectre,vlvtnfet_ids,133.7e-6,177.3e-6,153e-6,153.1e-6,6.183e-6,,
+hyuntest_lkg_tb_1_spectre,vlvtnfet_igtot,48.9e-12,69.96e-12,57.03e-12,56.85e-12,2.98e-12,,
+hyuntest_lkg_tb_1_spectre,vlvtnfet_igidl,9.663e-102,10.36e-102,10.05e-102,10.05e-102,0,,
+hyuntest_lkg_tb_1_spectre,vlvtnfet_vth,134.5e-3,250.1e-3,196.4e-3,196.3e-3,17.47e-3,,
+hyuntest_lkg_tb_1_spectre,nswnfetpd_ids,45.59e-6,63.7e-6,55.22e-6,55.23e-6,2.913e-6,,
+hyuntest_lkg_tb_1_spectre,nswnfetpd_igtot,5.925e-12,7.387e-12,6.567e-12,6.552e-12,244.5e-15,,
+hyuntest_lkg_tb_1_spectre,nswnfetpd_igidl,1.531e-102,1.531e-102,1.531e-102,1.531e-102,0,,
+hyuntest_lkg_tb_1_spectre,nswnfetpd_vth,272.2e-3,381.4e-3,325.2e-3,325.1e-3,18.53e-3,,
+hyuntest_lkg_tb_1_spectre,nswnfetwl_ids,46.47e-6,66.76e-6,57.26e-6,57.21e-6,3.126e-6,,
+hyuntest_lkg_tb_1_spectre,nswnfetwl_igtot,6.156e-12,7.922e-12,7.051e-12,7.034e-12,295.9e-15,,
+hyuntest_lkg_tb_1_spectre,nswnfetwl_igidl,1.348e-102,1.402e-102,1.373e-102,1.373e-102,0,,
+hyuntest_lkg_tb_1_spectre,nswnfetwl_vth,275.2e-3,392e-3,325.7e-3,326e-3,19.01e-3,,
+hyuntest_lkg_tb_1_spectre,hvtpfet_ids,-8.461e-6,-1.013e-6,-3.764e-6,-3.628e-6,1.191e-6,,
+hyuntest_lkg_tb_1_spectre,hvtpfet_igtot,-742.7e-15,-736.9e-15,-740.7e-15,-740.9e-15,906e-18,,
+hyuntest_lkg_tb_1_spectre,hvtpfet_igidl,-61.86e-102,-61.06e-102,-61.36e-102,-61.36e-102,0,,
+hyuntest_lkg_tb_1_spectre,hvtpfet_vth,-460.8e-3,-332.8e-3,-391.7e-3,-391.7e-3,19.84e-3,,
+hyuntest_lkg_tb_1_spectre,rvtpfet_ids,-16.77e-6,-2.832e-6,-7.52e-6,-7.333e-6,2.213e-6,,
+hyuntest_lkg_tb_1_spectre,rvtpfet_igtot,-741.5e-15,-729.8e-15,-737.7e-15,-737.9e-15,1.895e-15,,
+hyuntest_lkg_tb_1_spectre,rvtpfet_igidl,-44.78e-102,-43.7e-102,-44.06e-102,-44.06e-102,0,,
+hyuntest_lkg_tb_1_spectre,rvtpfet_vth,-407.4e-3,-287.2e-3,-349.2e-3,-348.6e-3,19.03e-3,,
+hyuntest_lkg_tb_1_spectre,lvtpfet_ids,-32.19e-6,-6.759e-6,-17.91e-6,-17.6e-6,4.168e-6,,
+hyuntest_lkg_tb_1_spectre,lvtpfet_igtot,-894.8e-15,-858.9e-15,-878.7e-15,-879.1e-15,5.895e-15,,
+hyuntest_lkg_tb_1_spectre,lvtpfet_igidl,-36.18e-102,-34.61e-102,-35.3e-102,-35.3e-102,0,,
+hyuntest_lkg_tb_1_spectre,lvtpfet_vth,-364.3e-3,-235.3e-3,-300.8e-3,-300.6e-3,19.05e-3,,
+hyuntest_lkg_tb_1_spectre,mvtpfet_ids,-27.96e-6,-5.518e-6,-13.65e-6,-13.43e-6,3.328e-6,,
+hyuntest_lkg_tb_1_spectre,mvtpfet_igtot,-895.4e-15,-868.4e-15,-885.9e-15,-886.2e-15,3.952e-15,,
+hyuntest_lkg_tb_1_spectre,mvtpfet_igidl,-41.64e-102,-40.05e-102,-40.62e-102,-40.62e-102,0,,
+hyuntest_lkg_tb_1_spectre,mvtpfet_vth,-348.8e-3,-227.5e-3,-284.7e-3,-284.7e-3,19.27e-3,,
+hyuntest_lkg_tb_1_spectre,slvtpfet_ids,-46.98e-6,-14.87e-6,-28.25e-6,-27.73e-6,4.956e-6,,
+hyuntest_lkg_tb_1_spectre,slvtpfet_igtot,-883.5e-15,-838.6e-15,-864.9e-15,-865.5e-15,6.824e-15,,
+hyuntest_lkg_tb_1_spectre,slvtpfet_igidl,-11.85e-102,-11.21e-102,-11.47e-102,-11.47e-102,0,,
+hyuntest_lkg_tb_1_spectre,slvtpfet_vth,-310.6e-3,-183.9e-3,-247.7e-3,-248.4e-3,19.3e-3,,
+hyuntest_lkg_tb_1_spectre,vlvtpfet_ids,-43.61e-6,-12.63e-6,-23.93e-6,-23.53e-6,4.767e-6,,
+hyuntest_lkg_tb_1_spectre,vlvtpfet_igtot,-887.6e-15,-847e-15,-872.4e-15,-872.9e-15,6.361e-15,,
+hyuntest_lkg_tb_1_spectre,vlvtpfet_igidl,-13.11e-102,-12.42e-102,-12.67e-102,-12.67e-102,0,,
+hyuntest_lkg_tb_1_spectre,vlvtpfet_vth,-312.4e-3,-190e-3,-255.8e-3,-255.5e-3,19.39e-3,,
+hyuntest_lkg_tb_1_spectre,nswpfetpu_ids,-5.827e-6,-632.9e-9,-2.498e-6,-2.345e-6,951.2e-9,,
+hyuntest_lkg_tb_1_spectre,nswpfetpu_igtot,-833.9e-15,-651.5e-15,-735.4e-15,-732.7e-15,33.48e-15,,
+hyuntest_lkg_tb_1_spectre,nswpfetpu_igidl,-14.61e-102,-14.35e-102,-14.44e-102,-14.44e-102,0,,
+hyuntest_lkg_tb_1_spectre,nswpfetpu_vth,-336e-3,-185.3e-3,-257.7e-3,-258.5e-3,27.08e-3,,
 
